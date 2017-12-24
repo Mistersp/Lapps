@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: IQvtQUPKoAJA2woFWtL1D+LzU3s=
+
+Name: customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS
+ /Folder_com.github.yeriomin.yalpstore_23/com.github.yeriomin.yalpstor
+ e_23.apk
+SHA1-Digest: xYVbf3xHmx9Knt4kxAcQWJP83EE=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: ygSP0NefcGv5SErY1AZLNH7HpZM=
+
+Name: customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS
+ /Folder_FDroid/FDroid.apk
+SHA1-Digest: pV8j0gLsCUIEYS7bcmlxCyLhgGQ=
+

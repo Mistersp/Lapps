@@ -1,0 +1,34 @@
+ui_print("********************************************************");
+ui_print(" * *          **        ********  ********  ********    ");
+ui_print(" * *         *  *       *      *  *      *   *          ");
+ui_print(" * *        *    *      ********  ********    *         "); 
+ui_print(" * *       ********     *         *            *        ");
+ui_print(" * ****   *        *    *         *             *       ");  
+ui_print(" ******  *          *   *         *       *******       ");
+ui_print("********************************************************");
+
+
+ui_print("Starting the install process");
+ui_print("Setting up required tools...");
+ui_print("Mounting Partitions...");
+run_program("/sbin/busybox", "mount", "/system");
+run_program("/sbin/busybox", "mkdir", "-p", "/system/app");
+run_program("/sbin/busybox", "mkdir", "-p", "/data/app");
+
+set_progress(0);
+ui_print("Installing FDroid");
+run_program("/sbin/busybox", "mkdir", "-p", "/system/priv-app/FDroid");
+set_perm(1000, 1000, 0755, "/system/priv-app/FDroid");
+ui_print("Copying FDroid.apk");
+package_extract_file("customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS/Folder_FDroid/FDroid.apk", "/system/priv-app/FDroid/FDroid.apk");
+set_perm(0, 0, 0644, "/system/priv-app/FDroid/FDroid.apk");
+run_program("/tmp/AFZCScripts/afzc", "$OUTFD", "-ei", "priv-app/FDroid/FDroid.apk");
+ui_print("Installing com.github.yeriomin.yalpstore_23");
+run_program("/sbin/busybox", "mkdir", "-p", "/system/priv-app/com.github.yeriomin.yalpstore_23");
+set_perm(1000, 1000, 0755, "/system/priv-app/com.github.yeriomin.yalpstore_23");
+ui_print("Copying com.github.yeriomin.yalpstore_23.apk");
+package_extract_file("customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS/Folder_com.github.yeriomin.yalpstore_23/com.github.yeriomin.yalpstore_23.apk", "/system/priv-app/com.github.yeriomin.yalpstore_23/com.github.yeriomin.yalpstore_23.apk");
+set_perm(0, 0, 0644, "/system/priv-app/com.github.yeriomin.yalpstore_23/com.github.yeriomin.yalpstore_23.apk");
+run_program("/tmp/AFZCScripts/afzc", "$OUTFD", "-ei", "priv-app/com.github.yeriomin.yalpstore_23/com.github.yeriomin.yalpstore_23.apk");
+set_progress(1);
+ui_print("Finished Install");

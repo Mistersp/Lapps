@@ -1,0 +1,53 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: ygSP0NefcGv5SErY1AZLNH7HpZM=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: q6iyPonDHUZvnf07rFOW8vOTfqk=
+
+Name: customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS
+ /Folder_FastHub 4.3.0/FastHub 4.3.0.apk
+SHA1-Digest: mn/yh/CSxL/hf9kCXCSVoA2+rIY=
+
+Name: customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS
+ /Folder_Vespucci (F-Droid) 0.9.9.0.1266-fdroid/Vespucci (F-Droid) 0.9
+ .9.0.1266-fdroid.apk
+SHA1-Digest: aTo+tqk4oDk9u3hbchk1VtZ4OiM=
+
+Name: customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS
+ /Folder_firefox-53-0-2/firefox-53-0-2.apk
+SHA1-Digest: JT+dDQVUllzjb4PNi9FzFslMUa0=
+
+Name: afzc/afzc
+SHA1-Digest: X1l8POwh4AKVCV+sNR1kgIglAGM=
+
+Name: afzc/addon
+SHA1-Digest: A+LCszBRkcMhPryIVF9SxmfdAlY=
+
+Name: customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS
+ /Folder_base/base.apk
+SHA1-Digest: wU0HKT9StWW27eTIQgx4IPSK1mo=
+
+Name: customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS
+ /Folder_FDroid/FDroid.apk
+SHA1-Digest: pV8j0gLsCUIEYS7bcmlxCyLhgGQ=
+
+Name: customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS
+ /Folder_Silence_v0.15.7_apkpure.com(1)/Silence_v0.15.7_apkpure.com(1)
+ .apk
+SHA1-Digest: SQUMLLHLqPs/tPvmtXsu4BYTT4c=
+
+Name: afzc/file_data.xml
+SHA1-Digest: /MiSF/UX7PrNgaKEhDNKSFXO63o=
+
+Name: customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS
+ /Folder_com.github.yeriomin.yalpstore_23/com.github.yeriomin.yalpstor
+ e_23.apk
+SHA1-Digest: bkZea/DxRj4Jn97gDpJRWCb2r0Q=
+
+Name: customize/aroma_0/Project_Lapps/Type_system_priv_app/Group_LAPPS
+ /Folder_NewPipe 0.9.10/NewPipe 0.9.10.apk
+SHA1-Digest: DiI7xARHzEN+UROvI8Pkcdr+ssk=
+
